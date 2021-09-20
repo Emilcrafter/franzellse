@@ -1,0 +1,24 @@
+.arrows {
+    display: flex;
+    flex-direction: column;
+    background: none;
+    border: none;
+    height: 100px;
+    justify-content: space-between;
+    opacity: 0.5;
+    margin-right: 50px;
+}
+
+.arrows img {
+    height: 40px;
+}
+
+.upside-down {
+    transform: rotate(180deg);
+}
+
+@media only screen and (max-width: 450px) {
+    .arrows {
+        display: none;
+    }
+}

@@ -1,0 +1,36 @@
+#all-items {
+    display: flex;
+    color: black;
+    flex-direction: row;
+    width: 1400px;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    border-bottom: 2px solid lightgray;
+    padding: 0 10px;
+}
+
+.nav-item {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.5em;
+}
+
+
+@media only screen and (max-width: 1400px) {
+    #all-items{
+        width: 73vw;
+    }
+    .nav-item {
+        font-size: 0.67em;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #all-items{
+        width: 100vw;
+    }
+
+}

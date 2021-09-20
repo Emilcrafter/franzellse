@@ -1,0 +1,17 @@
+.nav-button{
+    background: none;
+    border: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-overflow: fade;
+    white-space: nowrap;
+    width: auto;
+    font-weight: bold;
+    color: white;
+}
+
+@media only screen and (max-width: 450px){
+    .nav-button {
+        font-size: 0.5em;
+    }
+}

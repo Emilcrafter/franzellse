@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;800&display=swap');
+#root {
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 10px;
+    max-height: 150px;
+}
+
+#logo img {
+    width: 200px;
+}
+
+#banner {
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: inherit;
+    width: 35%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FeaturedContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 850px) {
+    #banner {
+        background-position: center;
+        width: 100vw;
+        height: revert;
+
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #banner {
+        height: 30vh;
+        width: 100vw;
+        background-size: cover;
+        overflow: visible;
+        background-position: center;
+    }
+    #logo img {
+        width: 30vw;
+    }
+
+    .FeaturedContainer {
+        justify-content: flex-start;
+    }
+
+    nav {
+        width: 30vw;
+    }
+
+    #root {
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    .profile-pic {
+        display: none
+    }
+}

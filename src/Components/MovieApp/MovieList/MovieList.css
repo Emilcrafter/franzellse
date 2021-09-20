@@ -1,0 +1,20 @@
+#movielist{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1400px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1400px) {
+    #movielist{
+        width: 700px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    #movielist{
+        width: 100vw;
+    }
+}

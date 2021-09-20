@@ -1,0 +1,11 @@
+#MovieListContainer {
+    background-color: ghostwhite;
+}
+
+
+
+@media only screen and (max-width: 450px) {
+    #MovieListContainer {
+        width: 100vw;
+    }
+}

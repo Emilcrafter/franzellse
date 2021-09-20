@@ -1,0 +1,30 @@
+.navDots {
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 50px;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+.dot {
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.5rem;
+    text-align: center;
+    color: white;
+    opacity: 60%;
+}
+
+.selected {
+    font-size: 3rem;
+    opacity: 90%;
+    line-height: 3rem;
+
+}
+
+@media only screen and (max-width: 450px) {
+    .dot {
+        display: none;
+    }
+}

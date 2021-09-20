@@ -1,0 +1,95 @@
+#root{
+    font-family: "Raleway", sans-serif;
+}
+
+div{
+    color: white;
+    text-align: left;
+}
+
+.date {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 0.7;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 4em;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: white;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 10%;
+    margin-top: 10vh;
+    justify-items: left;
+    width: 60vw;
+    padding: 15px;
+}
+
+.title-genres {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.container button {
+    border-radius: 30px;
+    width: 180px;
+    height: 50px;
+    background-color: #f1cd3d;
+    border: none;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-bottom: 14%;
+    padding: 5px;
+}
+
+.genres {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+    height: 2em;
+    align-items: center;
+}
+
+.in-theaters {
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 850px) {
+    .container {
+        margin-left: 0;
+        width: 30vw;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    h1 {
+        font-size: 32px;
+    }
+    .container {
+        width: 40vw;
+        flex-direction: row;
+        margin-left: 10vw;
+    }
+    .genres {
+        display: none;
+    }
+    .date {
+        display: none;
+    }
+    .in-theaters {
+        display: none;
+    }
+}
